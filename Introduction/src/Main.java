@@ -1,11 +1,16 @@
-import  javax.swing.JOptionPane;
+import  java.util.Scanner;
 
 public class Main {
+
    public static void main(String[] args) {
-      double x = 6.87 ;
-      double y  = 4.5;
-      double z  = Math.round(x);
-      System.out.println( z);
+       Scanner scan = new Scanner(System.in);
+      System.out.println("Enter side 1 : ");
+      double x = scan.nextDouble();
+      System.out.println("Enter side 2 : ");
+      double y = scan.nextDouble();
+      double z = Math.sqrt((x*x) + (y*y));
+      System.out.println("The Hypoteneous is " + z);
+
    }
 
 }
