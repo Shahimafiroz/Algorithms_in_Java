@@ -1,7 +1,7 @@
 import  javax.swing.JOptionPane;
 
 
-public class Conditionals {
+public class Condi_if_elseif_else {
     public static void main(String[] args) {
        double salary = Integer.parseInt(JOptionPane.showInputDialog("Enter your salary : "));
        double bonus;
