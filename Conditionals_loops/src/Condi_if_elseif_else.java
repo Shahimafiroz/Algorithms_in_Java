@@ -1,6 +1,14 @@
+/*
+Syntax :-
+  if(condition){
+    code block
+    }else if (condition 2){
+    code block 2
+    }else{
+    default code block
+    }
+ */
 import  javax.swing.JOptionPane;
-
-
 public class Condi_if_elseif_else {
     public static void main(String[] args) {
        double salary = Integer.parseInt(JOptionPane.showInputDialog("Enter your salary : "));
