@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-// While loop = executes a code block as long as the condition remains true
 /*
    Syntax:-
+
+While loop = executes a code block as long as the condition remains true.
+we usually use while loop when the number of time the code block has to be executed is not known only the condition is known
 
        while(1==1){
            System.out.println(" HELP !!! Im stuck in a while loop !!");
