@@ -25,7 +25,7 @@ public class NestedLoops {
         for (int i = 1 ; i<= rows ; i ++ ){
             System.out.println(); // this is for a new line after each row. if you don't use this then all the elements will be printed in the same line
             for (int j = 1 ; j <= colmns ; j++){
-                System.out.print(symb); /*note its not " println();" if u do println then each symbol of a row being
+                System.out.print(symb+" "); /*note its not " println();" if u do println then each symbol of a row being
                                             printed using number of columns will be printed in a new line hence no rectangle pattern */
             }
         }
