@@ -15,7 +15,7 @@ case "comparison condition" : code to be executde;
 import  javax.swing.JOptionPane;
 public class Condi_switch {
     public static void main(String[] args) {
-      String day = JOptionPane.showInputDialog("Enter the day of the week today (everything in small) : ");
+      String day = JOptionPane.showInputDialog("Enter the day of the week today  : ");
       switch (day){
           case "monday" : JOptionPane.showMessageDialog(null, "Hey Good luck for a new hectic week");
             break;
@@ -32,6 +32,49 @@ public class Condi_switch {
           case "sunday" : JOptionPane.showMessageDialog(null, "Relax dude! and prepare for tomorrow");
               break;
       }
+        // new and neater syntax of SWITCH statemnet
+        //OLD
+    /*    switch (day) {
+            case "MONDAY":
+            case "TUESDAY":
+            case "WEDNESDAY":
+            case "THURSDAY":
+            case "FRIDAY":
+                JOptionPane.showMessageDialog(null, "WEEKDAY! KEEP WORKING");
+                break;
+            case "STAURDAY":
+            case "SUNDAY":
+                JOptionPane.showMessageDialog(null, "WEEKEND WOOOHOO !! RELAX ");
+                break;
+            default:
+                JOptionPane.showMessageDialog(null, "Pls enter a valid input ");
+                break;
+        }
+
+     */
+        ///// NEW !!!!!!
+        switch (day) {
+            case "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY" ->
+                    JOptionPane.showMessageDialog(null, "WEEKDAY! KEEP WORKING");
+            case "STAURDAY", "SUNDAY" -> JOptionPane.showMessageDialog(null, "WEEKEND WOOOHOO !! RELAX ");
+            default -> JOptionPane.showMessageDialog(null, "Pls enter a valid input ");
+        }
+
+        //////// NESTED SWITCH STATEMENT
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 
