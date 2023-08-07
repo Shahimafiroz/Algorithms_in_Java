@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MethoodsAndFunctions {
     public static void main(String[] args) {
         sum();
         int ot = sumdrum();
