@@ -1,4 +1,4 @@
-public class Swap {
+public class functionScopSwap {
     public static void main(String[] args) {
         int a= 20;
         int b = 30;
@@ -13,11 +13,12 @@ public class Swap {
 
     }
 
-    public static void swp (int a , int b){
+    //function scope
+    public static void swp (int num1 , int num2){
 
-        int temp =a  ;
-        a = b ;
-        b=temp;
+        int temp =num1  ;
+        num1 = num2 ;
+        num2=temp;
 
 
     }
