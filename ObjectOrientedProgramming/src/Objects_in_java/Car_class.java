@@ -1,12 +1,12 @@
 package Objects_in_java;
 
 public class Car_class {
-    String name = "Mustang";
-    String model = "Mustang 1969";
-    String company = "Ford";
+    String name;
+    String model;
+    String company;
 
     void drive (){
-        System.out.println("Mustang is in drive mode");
+        System.out.println("Car is in drive mode");
     }
 
     void stop (){
@@ -15,3 +15,4 @@ public class Car_class {
 
 
 }
+
