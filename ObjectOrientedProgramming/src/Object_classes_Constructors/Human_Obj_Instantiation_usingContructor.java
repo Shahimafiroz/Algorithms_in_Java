@@ -1,6 +1,4 @@
-package Objects_in_java;
-
-import java.sql.SQLOutput;
+package Object_classes_Constructors;
 
 public class Human_Obj_Instantiation_usingContructor {
     public static void main(String[] args) {
@@ -14,6 +12,7 @@ public class Human_Obj_Instantiation_usingContructor {
         System.out.println(Human1.wt);
 
         Human2.eat();
+        Human1.drink();
 
 
 

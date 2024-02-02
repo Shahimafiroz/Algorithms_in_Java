@@ -1,6 +1,6 @@
 ## CLASSES
 
-### Java Classes
+### A. Java Classes
 
 A class in Java is a set of objects which shares common characteristics/ behavior and common properties/ attributes. 
 It is a user-defined blueprint or prototype from which objects are created. For example, Student is a class while a particular student named Ravi is an object.
@@ -42,7 +42,7 @@ Superclass(if any): The name of the class’s parent (superclass), if any, prece
 Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
 Body: The class body is surrounded by braces, { }.
 
-### Java Objects
+### B. Java Objects
 
 An object in Java is a basic unit of Object-Oriented Programming and represents real-life entities. Objects are the instances of a class that are created to use the attributes and methods of a class.  A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of :
 
@@ -66,14 +66,14 @@ There are four ways to create objects in Java. Strictly speaking, there is only 
    (Serialization is a mechanism of converting the state of an object into a byte stream. Deserialization is the reverse process where the byte stream is used to recreate the actual Java object in memory. This mechanism is used to persist the object.)
 
 
-### Java Constructors
+### C. Java Constructors
 
 Java constructors or constructors in Java is a terminology used to construct something in our programs. A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes.
 
 What are Constructors in Java?
 In Java, a Constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling the constructor, memory for the object is allocated in the memory. It is a special type of method that is used to initialize the object. Every time an object is created using the new() keyword, at least one constructor is called.
 
-#### How Java Constructors are Different From Java Methods?
+#### 1.How Java Constructors are Different From Java Methods?
 
 Constructors must have the same name as the class within which it is defined it is not necessary for the method in Java.
 Constructors do not return any type while method(s) have the return type or void if does not return any value.
@@ -83,4 +83,33 @@ Need of Constructors in Java
 Think of a Box. If we talk about a box class then it will have some class variables (say length, breadth, and height). But when it comes to creating its object(i.e Box will now exist in the computer’s memory), then can a box be there with no value defined for its dimensions? The answer is No.
 So constructors are used to assign values to the class variables at the time of object creation, either explicitly done by the programmer or by Java itself (default constructor).
 
+#### 2.Types of Constructors in Java
+
+Now is the correct time to discuss the types of the constructor, so primarily there are three types of constructors in Java are mentioned below:
+
+* Default Constructor
+* Parameterized Constructor
+* Copy Constructor
+
+###### 1. Default Constructor in Java
+
+   A constructor that has no parameters is known as default the constructor. A default constructor is invisible. And if we write a constructor with no arguments, the compiler does not create a default constructor. It is taken out. It is being overloaded and called a parameterized constructor. The default constructor changed into the parameterized constructor. But Parameterized constructor can’t change the default constructor.
+
+###### 2. Parameterized Constructor in Java
+
+   A constructor that has parameters is known as parameterized constructor. If we want to initialize fields of the class with our own values, then use a parameterized constructor.
+
+###### 3.Copy Constructor in Java
+
+Like C++, Java also supports a copy constructor. But, unlike C++, Java doesn’t create a default copy constructor if you don’t write your own. A prerequisite prior to learning copy constructors is to learn about constructors in java to deeper roots. Below is an example Java program that shows a simple use of a copy constructor.
+
+Here’s a basic algorithm for implementing a copy constructor in Java:
+
+1. **Define a class:** Create a class that represents the object you want to manage.
+2. **Define instance variables:** Within the class, define instance variables that represent the data you want to manage.
+3. **Define a constructor:** Define a constructor for the class that takes an instance of the same class as its argument. This constructor will be used to create a copy of the object.
+4. **Initialize the instance variables:** Within the constructor, initialize the instance variables with the values from the argument object.
+5. **Use the "this" keyword to refer to the instance variables:** To refer to the instance variables of the class within the constructor, use the "this" keyword.
+6. **Check for null values:** If the argument object is null, return a new instance of the class with default values for the instance variables.
+7. **Implement deep copying:** If the instance variables are objects, create new instances of those objects within the constructor and initialize them with the values from the argument object. This is called deep copying and ensures that changes to the copied object do not affect the original object.
 

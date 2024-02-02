@@ -1,4 +1,4 @@
-package Objects_in_java;
+package Object_classes_Constructors;
 
 public class Human_Class_Constuctor {
     /// defining the class
@@ -19,7 +19,7 @@ public class Human_Class_Constuctor {
     }
 
     void drink(){
-        System.out.println(this.nam+"is Drinking");
+        System.out.println(this.nam+" is Drinking");
 
     }
 }
