@@ -24,11 +24,12 @@ public class Pizza {
         this.cheese = cheese;
     }
 
-    @Override
-    public String toString(){
-        return "\n\nPizza{" + "\nCrust = "+crust+ "\nCheese = "+cheese+ "\nVeggies = "+veggies+"\nSauce = "+sauce+"}";
-
-
-    }
+    //// tostrng method .
+//    @Override
+//    public String toString(){
+//        return "\n\nPizza{" + "\nCrust = "+crust+ "\nCheese = "+cheese+ "\nVeggies = "+veggies+"\nSauce = "+sauce+"}";
+//
+//
+//    }
 
 }

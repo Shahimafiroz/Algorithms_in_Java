@@ -10,7 +10,13 @@ public class UsingtoStringtoprintpizza {
         Pizza pizza1 = new Pizza("flat", "Mozerella" ,"Tomatoes" , "mariana");
         Pizza pizza2 = new Pizza("Thick", "Fetta" , "garliCream");
         Pizza pizza3 = new Pizza("flat", "Mozerella");
+
+
+        System.out.println(pizza1.toString());
+
+
     }
+
 
 
 
