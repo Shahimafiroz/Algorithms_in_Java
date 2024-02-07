@@ -16,6 +16,8 @@ public class Main {
         Garage garage3 = new Garage(car3);
         Garage garage4 = new Garage(car4);
 
+        SuperGarage BigGarage = new SuperGarage(car1,car2,car3,car4);
+
 
     }
 }
