@@ -1,7 +1,4 @@
-package Heirarchical;
-
-import Heirarchical.Bike;
-import Heirarchical.Car;
+package G.Inheritance.Heirarchical;
 
 public class Instantiate {
     public static void main(String[] args) {

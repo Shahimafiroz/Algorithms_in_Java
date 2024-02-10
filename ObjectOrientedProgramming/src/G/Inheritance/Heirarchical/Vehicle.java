@@ -1,4 +1,4 @@
-package Heirarchical;
+package G.Inheritance.Heirarchical;
 
 public class Vehicle {
 
